@@ -1,8 +1,6 @@
-                                                         permutations in Array
-
-public class function{
-	
-	public class function{
+                                                                       permutations in Array
+								       
+       public class function{
 	public static void permutations(int a[],int i) {
 		int j=i;
 		while(j<a.length) {
@@ -11,8 +9,8 @@ public class function{
 			a[j]=t;
 		
 			permutations(a,i+1);
-            a[j]=a[i];
-            a[i]=t;
+                        a[j]=a[i];
+                        a[i]=t;
 			j++;
 		}
 		if(i==a.length) {
@@ -23,7 +21,7 @@ public class function{
 		int a[]= {1,2};
 		permutations(a,0);	  
 	  }
-}
+      }
 
 OUTPUT:
 [1,2]
